@@ -57,28 +57,3 @@ export const getImportanceLabel = (importance) => {
   };
   return labelMap[importance] || 'Medium Importance';
 };
-
-/**
- * Calculate progress for a section
- * @param {string} sectionId - Section ID
- * @param {Object} progress - Progress object from storage
- */
-export const calculateSectionProgress = (sectionId, progress = {}) => {
-  const section = progress[sectionId] || {};
-  const topics = section.topics || {};
-  const topicIds = Object.keys(topics);
-  
-  if (topicIds.length === 0) return 0;
-  
-  const completedTopics = topicIds.filter(id => topics[id] === 'completed').length;
-  return Math.round((completedTopics / topicIds.length) * 100);
-};
-
-/**
- * Get topic status
- * @param {string} topicId - Topic ID
- * @param {Object} progress - Progress object from storage
- */
-export const getTopicStatus = (topicId, progress = {}) => {
-  return progress[topicId] || 'not-started';
-};

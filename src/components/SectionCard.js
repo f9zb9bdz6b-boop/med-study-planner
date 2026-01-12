@@ -20,7 +20,7 @@ const SectionCard = ({ subjectId, section }) => {
 
   const getStatusBadge = (status) => {
     const badges = {
-      'not-started': { label: 'Not Started', color: '#gray' },
+      'not-started': { label: 'Not Started', color: '#808080' },
       'in-progress': { label: 'In Progress', color: '#ffa500' },
       'completed': { label: 'Completed', color: '#4caf50' }
     };
