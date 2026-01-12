@@ -1,0 +1,412 @@
+{
+  "subjects": [
+    {
+      "id": "pathology",
+      "name": "Pathology",
+      "sections": [
+        {
+          "id": "cell-injury",
+          "name": "Cell Injury & Adaptation",
+          "importance": "high",
+          "topics": [
+            {
+              "id": "cell-injury-1",
+              "name": "Types of Cell Injury (Hypoxia, Chemical, Physical)",
+              "importance": "high"
+            },
+            {
+              "id": "cell-injury-2",
+              "name": "Mechanisms of Cell Injury",
+              "importance": "high"
+            },
+            {
+              "id": "cell-injury-3",
+              "name": "Cellular Adaptations (Hypertrophy, Hyperplasia, Atrophy, Metaplasia)",
+              "importance": "high"
+            },
+            {
+              "id": "cell-injury-4",
+              "name": "Cell Death (Necrosis vs Apoptosis)",
+              "importance": "high"
+            }
+          ]
+        },
+        {
+          "id": "inflammation",
+          "name": "Inflammation and Repair",
+          "importance": "high",
+          "topics": [
+            {
+              "id": "inflammation-1",
+              "name": "Acute Inflammation",
+              "importance": "high"
+            },
+            {
+              "id": "inflammation-2",
+              "name": "Chronic Inflammation",
+              "importance": "high"
+            },
+            {
+              "id": "inflammation-3",
+              "name": "Granulomatous Inflammation",
+              "importance": "medium"
+            },
+            {
+              "id": "inflammation-4",
+              "name": "Wound Healing and Tissue Repair",
+              "importance": "medium"
+            }
+          ]
+        },
+        {
+          "id": "neoplasia",
+          "name": "Neoplasia",
+          "importance": "high",
+          "topics": [
+            {
+              "id": "neoplasia-1",
+              "name": "Benign vs Malignant Tumors",
+              "importance": "high"
+            },
+            {
+              "id": "neoplasia-2",
+              "name": "Carcinogenesis",
+              "importance": "high"
+            },
+            {
+              "id": "neoplasia-3",
+              "name": "Tumor Markers",
+              "importance": "medium"
+            },
+            {
+              "id": "neoplasia-4",
+              "name": "Metastasis",
+              "importance": "high"
+            }
+          ]
+        },
+        {
+          "id": "hemodynamic",
+          "name": "Hemodynamic Disorders",
+          "importance": "medium",
+          "topics": [
+            {
+              "id": "hemodynamic-1",
+              "name": "Edema and Hyperemia",
+              "importance": "medium"
+            },
+            {
+              "id": "hemodynamic-2",
+              "name": "Thrombosis and Embolism",
+              "importance": "high"
+            },
+            {
+              "id": "hemodynamic-3",
+              "name": "Infarction",
+              "importance": "high"
+            },
+            {
+              "id": "hemodynamic-4",
+              "name": "Shock",
+              "importance": "medium"
+            }
+          ]
+        },
+        {
+          "id": "genetic",
+          "name": "Genetic Disorders",
+          "importance": "low",
+          "topics": [
+            {
+              "id": "genetic-1",
+              "name": "Chromosomal Abnormalities",
+              "importance": "low"
+            },
+            {
+              "id": "genetic-2",
+              "name": "Single Gene Disorders",
+              "importance": "low"
+            },
+            {
+              "id": "genetic-3",
+              "name": "Multifactorial Inheritance",
+              "importance": "low"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pharmacology",
+      "name": "Pharmacology",
+      "sections": [
+        {
+          "id": "ans",
+          "name": "Autonomic Nervous System",
+          "importance": "high",
+          "topics": [
+            {
+              "id": "ans-1",
+              "name": "Cholinergic Agonists and Antagonists",
+              "importance": "high"
+            },
+            {
+              "id": "ans-2",
+              "name": "Adrenergic Agonists and Antagonists",
+              "importance": "high"
+            },
+            {
+              "id": "ans-3",
+              "name": "Neuromuscular Blockers",
+              "importance": "medium"
+            }
+          ]
+        },
+        {
+          "id": "cvs",
+          "name": "Cardiovascular System",
+          "importance": "high",
+          "topics": [
+            {
+              "id": "cvs-1",
+              "name": "Antihypertensive Drugs",
+              "importance": "high"
+            },
+            {
+              "id": "cvs-2",
+              "name": "Antianginal Drugs",
+              "importance": "high"
+            },
+            {
+              "id": "cvs-3",
+              "name": "Antiarrhythmic Drugs",
+              "importance": "medium"
+            },
+            {
+              "id": "cvs-4",
+              "name": "Heart Failure Drugs",
+              "importance": "high"
+            },
+            {
+              "id": "cvs-5",
+              "name": "Diuretics",
+              "importance": "high"
+            }
+          ]
+        },
+        {
+          "id": "hematology",
+          "name": "Hematology",
+          "importance": "high",
+          "topics": [
+            {
+              "id": "hematology-1",
+              "name": "Anticoagulants (Heparin, Warfarin)",
+              "importance": "high"
+            },
+            {
+              "id": "hematology-2",
+              "name": "Antiplatelet Drugs",
+              "importance": "high"
+            },
+            {
+              "id": "hematology-3",
+              "name": "Thrombolytics",
+              "importance": "medium"
+            },
+            {
+              "id": "hematology-4",
+              "name": "Hemostatic Agents",
+              "importance": "low"
+            }
+          ]
+        },
+        {
+          "id": "cns",
+          "name": "Central Nervous System",
+          "importance": "medium",
+          "topics": [
+            {
+              "id": "cns-1",
+              "name": "Antiepileptic Drugs",
+              "importance": "high"
+            },
+            {
+              "id": "cns-2",
+              "name": "Antidepressants",
+              "importance": "medium"
+            },
+            {
+              "id": "cns-3",
+              "name": "Antipsychotics",
+              "importance": "medium"
+            },
+            {
+              "id": "cns-4",
+              "name": "Anxiolytics and Sedatives",
+              "importance": "low"
+            }
+          ]
+        },
+        {
+          "id": "antimicrobials",
+          "name": "Antimicrobial Agents",
+          "importance": "high",
+          "topics": [
+            {
+              "id": "antimicrobials-1",
+              "name": "Beta-Lactam Antibiotics",
+              "importance": "high"
+            },
+            {
+              "id": "antimicrobials-2",
+              "name": "Aminoglycosides",
+              "importance": "medium"
+            },
+            {
+              "id": "antimicrobials-3",
+              "name": "Fluoroquinolones",
+              "importance": "medium"
+            },
+            {
+              "id": "antimicrobials-4",
+              "name": "Antitubercular Drugs",
+              "importance": "high"
+            },
+            {
+              "id": "antimicrobials-5",
+              "name": "Antiviral Drugs",
+              "importance": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "microbiology",
+      "name": "Microbiology",
+      "sections": [
+        {
+          "id": "bacteriology",
+          "name": "Bacteriology",
+          "importance": "high",
+          "topics": [
+            {
+              "id": "bacteriology-1",
+              "name": "Staphylococcus and Streptococcus",
+              "importance": "high"
+            },
+            {
+              "id": "bacteriology-2",
+              "name": "Mycobacterium tuberculosis",
+              "importance": "high"
+            },
+            {
+              "id": "bacteriology-3",
+              "name": "Gram-Negative Bacteria",
+              "importance": "medium"
+            },
+            {
+              "id": "bacteriology-4",
+              "name": "Anaerobic Bacteria",
+              "importance": "low"
+            }
+          ]
+        },
+        {
+          "id": "virology",
+          "name": "Virology",
+          "importance": "high",
+          "topics": [
+            {
+              "id": "virology-1",
+              "name": "HIV/AIDS",
+              "importance": "high"
+            },
+            {
+              "id": "virology-2",
+              "name": "Hepatitis Viruses",
+              "importance": "high"
+            },
+            {
+              "id": "virology-3",
+              "name": "Influenza and Respiratory Viruses",
+              "importance": "medium"
+            },
+            {
+              "id": "virology-4",
+              "name": "Herpes Viruses",
+              "importance": "medium"
+            }
+          ]
+        },
+        {
+          "id": "mycology",
+          "name": "Mycology",
+          "importance": "low",
+          "topics": [
+            {
+              "id": "mycology-1",
+              "name": "Candida Species",
+              "importance": "medium"
+            },
+            {
+              "id": "mycology-2",
+              "name": "Aspergillus Species",
+              "importance": "low"
+            },
+            {
+              "id": "mycology-3",
+              "name": "Cryptococcus",
+              "importance": "low"
+            }
+          ]
+        },
+        {
+          "id": "parasitology",
+          "name": "Parasitology",
+          "importance": "medium",
+          "topics": [
+            {
+              "id": "parasitology-1",
+              "name": "Malaria",
+              "importance": "high"
+            },
+            {
+              "id": "parasitology-2",
+              "name": "Intestinal Parasites",
+              "importance": "medium"
+            },
+            {
+              "id": "parasitology-3",
+              "name": "Tissue Parasites",
+              "importance": "low"
+            }
+          ]
+        },
+        {
+          "id": "immunology",
+          "name": "Immunology",
+          "importance": "medium",
+          "topics": [
+            {
+              "id": "immunology-1",
+              "name": "Innate and Adaptive Immunity",
+              "importance": "medium"
+            },
+            {
+              "id": "immunology-2",
+              "name": "Hypersensitivity Reactions",
+              "importance": "high"
+            },
+            {
+              "id": "immunology-3",
+              "name": "Autoimmune Diseases",
+              "importance": "medium"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
