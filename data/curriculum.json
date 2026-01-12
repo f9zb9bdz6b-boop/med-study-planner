@@ -1,0 +1,38 @@
+{
+  "curriculum": [
+    {
+      "subject": "Pathology",
+      "sections": [
+        {
+          "title": "Cell Injury & Adaptation",
+          "importance": {
+            "high": [
+              "Definitions + examples: Atrophy, Hypertrophy, Hyperplasia, Metaplasia, Dysplasia",
+              "Ischemia–Reperfusion Injury",
+              "Free Radical–Mediated Injury",
+              "Morphology of Reversible Cell Injury",
+              "Necrosis (all types)",
+              "Gangrene (dry vs wet + differences)",
+              "Pathologic Calcification",
+              "Apoptosis",
+              "Fatty change",
+              "Pigments (lipofuscin, hemosiderin, melanin, bile)",
+              "Cellular adaptation (whole topic)"
+            ],
+            "medium": [
+              "Hyaline change",
+              "Mucoid degeneration",
+              "Intracellular accumulations",
+              "Autophagy"
+            ],
+            "low": [
+              "Endogenous pigments in detail"
+            ]
+          }
+        }
+        ... <rest of the data has been truncated for brevity> ...
+      ]
+    }
+    ... <the full curriculum follows this structure> ...
+  ]
+}
