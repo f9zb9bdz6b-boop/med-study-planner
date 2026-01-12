@@ -1,0 +1,178 @@
+.section-card {
+  background: white;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: box-shadow 0.3s ease;
+}
+
+.section-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.section-card.importance-high {
+  border-left: 4px solid #ff4444;
+}
+
+.section-card.importance-medium {
+  border-left: 4px solid #ffaa00;
+}
+
+.section-card.importance-low {
+  border-left: 4px solid #44ff44;
+}
+
+.section-header {
+  padding: 16px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f8f9fa;
+}
+
+.section-header:hover {
+  background: #e9ecef;
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.importance-emoji {
+  font-size: 24px;
+}
+
+.section-title h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.section-meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.progress-badge {
+  background: #007bff;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.expand-icon {
+  font-size: 12px;
+  color: #666;
+}
+
+.section-content {
+  padding: 16px;
+}
+
+.progress-bar {
+  height: 8px;
+  background: #e9ecef;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #007bff, #0056b3);
+  transition: width 0.3s ease;
+}
+
+.topics-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.topic-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  background: #f8f9fa;
+  border-radius: 6px;
+  transition: background 0.2s ease;
+}
+
+.topic-item:hover {
+  background: #e9ecef;
+}
+
+.topic-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 1;
+}
+
+.topic-importance {
+  font-size: 16px;
+}
+
+.topic-name {
+  color: #333;
+  font-size: 14px;
+}
+
+.topic-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.status-badge {
+  padding: 4px 12px;
+  border-radius: 12px;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.btn-in-progress,
+.btn-mark-done {
+  padding: 6px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.btn-in-progress {
+  background: #ffa500;
+  color: white;
+}
+
+.btn-in-progress:hover {
+  background: #ff8c00;
+}
+
+.btn-mark-done {
+  background: #28a745;
+  color: white;
+}
+
+.btn-mark-done:hover {
+  background: #218838;
+}
+
+.btn-mark-done.completed {
+  background: #6c757d;
+}
+
+.btn-mark-done.completed:hover {
+  background: #5a6268;
+}
